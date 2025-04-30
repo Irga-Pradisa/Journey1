@@ -1,5 +1,5 @@
 # Belajar Python
-'''
+
 print('TYPE DATA')
 def belajar():
     print(str('Belajar Python'))
@@ -25,9 +25,9 @@ def belajar():
     print(x)
     
 belajar()
-'''
 
-'''
+
+
 print('LEARN BUILT-IN')
 print('======================================')
 print('Selamat Datang di  Indomaret')
@@ -46,9 +46,9 @@ print('======================================')
 print('Total Harga Anda: ', (Harga_Barang * Jumlah_Barang) - Diskon - Potongan_Harga)
 print('======================================')
 print('Terima Kasih Telah Berbelanja di Indomaret')
-'''
 
-'''
+
+
 print('LEARN VARIABLES')
 
 print('Jika x adalah 3, Berapa hasil x -=1?')
@@ -67,9 +67,9 @@ if abs(user_answer - 963) < 0.001:
 else:
     print('Your answer is INCORRECT!')
     print(f'Jawaban yang benar adalah: {963}')
-'''
 
-'''
+
+
 print('LEARN OPERATORS')
 
 z = 10
@@ -115,9 +115,9 @@ while True:
 
 print('Login Berhasil')
 print('======================================')
-'''
 
-'''
+
+
 print('LEARN STRINGS')
 print('======================================')
 x = 'prdspractice' 
@@ -170,9 +170,9 @@ text_2 = f'Cost is {cost * 2} and discount is {discount}'
 print(text_2)
 
 print('my name is \'izat\'')
-'''
 
-'''
+
+
 print('================================')
 print('LEARN LISTS') #Can be change use # () or [] or {}
 
@@ -225,9 +225,9 @@ z = x #if u want z follow x (not use copy)
 print(z)   
 z.reverse() #if u want reverse the list and variables x dont follow variable z (use copy) 
 print(z)
-'''
 
-'''
+
+
 print('================================')
 print('LEARN TUPLES') ##Can not be change use ()
 
@@ -239,9 +239,9 @@ print(type(x))
 total = x.count('asep') #if u want count of element
 print(f'Maka total nama asep adalah {total}')
 print(f'Maka index dari nia adalah {x.index("nia")}') #if u want find the index of element
-'''
 
-'''
+
+
 print('================================')
 print('LEARN SET') #Can be change but random use {}
 
@@ -268,9 +268,9 @@ print(set(x).intersection(set(y))) #if u want find the same element
 print(set(x).difference(set(y))) #if u want find the different element
 u = set(x) ^ set(y)  #if u want find the different element all variable
 print(u)
-'''
 
-'''
+
+
 print('================================')
 print('LEARN DICTIONARY') #for store data (key, value)
 
@@ -359,9 +359,9 @@ x = ( #for sv and store data in tuplentuple
 print(x[2][1]) #if u want put by index
 print(x[3]) #if u want put by index
 print(x[4]) #if u want put by index
-'''
 
-'''
+
+
 print('================================')
 
 print('FUNCTION BUILTIN TYPE DATA COLLECTION') #for store data in fnction sum,min,len 
@@ -371,9 +371,9 @@ print('Sum of x:', sum(x)) #if u want sum the element
 print('Min of x:', min(x)) #if u want find the min element
 print('Max of x:', max(x)) #if u want find the max element
 print('Length of x:', len(x)) #if u want find the length of element
-'''
 
-'''
+
+
 print('================================')
 
 print('UNPACKING') #for unpacking data in list, tuple, set, dict
@@ -398,8 +398,9 @@ y, z, *u, = x #if u want unpacking data in tuple
 print(y) #if u want put by index
 print(z) #if u want put by index
 print(*u) # *f is the rest of the tuple so it will be 4, 5 (the keyword * is used to unpack the tuple)
-'''
-'''
+
+
+
 print('================================')
 print('CONDITIONAL STATEMENT') #for conditional statement in if, elif, else
 Nama_Siswa = input('Masukkan Nama Anda: ')
@@ -439,10 +440,10 @@ match Grade:
         print('Nilai Anda C')
     case _:
         print('Nilai Anda D, GOBLOK KOE BELAJAR ATO GA')
-'''
 
 
-'''
+
+
 print('================================')
 print('LOOPING') #for looping in for, while
 i = 0
@@ -505,9 +506,9 @@ x = (   #for looping in for (List of List)
 for i in x: 
     for j in i:
         print(j)
-'''
 
-'''
+
+
 print('================================')
 print('LEARN FUNCTION') #for function in def, return
 
@@ -564,9 +565,9 @@ print(f'Maka hasilnya adalah: {popo}')
 def plp():  #statement function
     pass
 plp()
-'''
 
-'''
+
+
 print('=========================')
 print('LAMBDA') #return value (simple)
 
@@ -581,6 +582,6 @@ name = input('Masukkan nama :  ')
 (lambda n : print(f'Hay {n}!'))(name)
 
 print((lambda : f'helo {name}!')())
-'''
+
 
 
